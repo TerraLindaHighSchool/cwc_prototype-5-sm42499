@@ -57,8 +57,9 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        restartButton.gameObject.SetActive(true);
     }
-
+     
     public void StartGame()
     {
         StartCoroutine(SpawnTarget());
