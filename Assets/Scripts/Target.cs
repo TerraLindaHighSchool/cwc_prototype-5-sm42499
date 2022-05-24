@@ -19,7 +19,7 @@ public class Target : MonoBehaviour
     {
         targetRb = GetComponent<Rigidbody>();
         targetRb.AddForce(RandomForce(), ForceMode.Impulse);
-        targetRb.AddTorque(RandomTorque(), RandomTorque(), RandomTorque(), ForceMode.Impulse);
+        //targetRb.AddTorque(RandomTorque(), RandomTorque(), RandomTorque(), ForceMode.Impulse);
         transform.position = RandomSpawnPos();
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }

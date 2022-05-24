@@ -62,10 +62,10 @@ public class GameManager : MonoBehaviour
      
     public void StartGame()
     {
+        isGameActive = true;
         StartCoroutine(SpawnTarget());
         score = 0;
         UpdateScore(0);
-        isGameActive = true;
         titleScreen.gameObject.SetActive(false);
     }
 }

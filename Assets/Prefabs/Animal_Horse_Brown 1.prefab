@@ -299,8 +299,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 26.603346, y: 43.40923, z: 60.217953}
-  m_Center: {x: -1.9205618, y: 21.204622, z: 6.5867662}
+  m_Size: {x: 23.352491, y: 39.054237, z: 54.935314}
+  m_Center: {x: -0.29513454, y: 19.027126, z: 3.945448}
 --- !u!23 &137881603558814238
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -369,7 +369,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointValue: 5
-  explosionParticle: {fileID: 0}
+  explosionParticle: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45,
+    type: 3}
 --- !u!33 &-3302102821183186710
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -620,7 +620,7 @@ Transform:
   m_GameObject: {fileID: 2444527110004968868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.06, y: 5.58, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 2444527110005261490}
   m_Father: {fileID: 0}
@@ -634,11 +634,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2444527110004968868}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 79.358795, y: 41.901543, z: 82.838585}
-  m_Center: {x: -2.0866394, y: 16.11257, z: -2.584256}
+  m_Size: {x: 22.78437, y: 41.901546, z: 82.838585}
+  m_Center: {x: -0.82004964, y: 16.112568, z: -2.5842571}
 --- !u!114 &2076082240141931491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,7 +652,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointValue: 3
-  explosionParticle: {fileID: 0}
+  explosionParticle: {fileID: 5112437202714306363, guid: 7b4191607aae74c0ab244a8d6e48adbf,
+    type: 3}
 --- !u!23 &7891544464704670067
 MeshRenderer:
   m_ObjectHideFlags: 0
