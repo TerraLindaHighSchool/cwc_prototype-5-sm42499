@@ -7,7 +7,7 @@ public class Target : MonoBehaviour
     private float minSpeed = 12;
     private float maxSpeed = 16;
     private float maxTorque = 10;
-    private float xRange = 4;
+    private float xRange = 0;
     private float ySpawnPos = -6;
     private Rigidbody targetRb;
     private GameManager gameManager;
@@ -52,10 +52,15 @@ public class Target : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        
         if (!gameObject.CompareTag("Bad"))
         {
             gameManager.GameOver();
+        }
+
+        if (gameObject.CompareTag("sensor"))
+        {
+            Destroy(gameObject);
         }
     }
     // Update is called once per frame
